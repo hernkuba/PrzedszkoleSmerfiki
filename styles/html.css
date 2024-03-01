@@ -1,0 +1,15 @@
+body{
+    display: grid;
+    justify-items: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    background-color: blue;
+
+}
+
+html {
+    background-image: linear-gradient(to bottom right,#1B10EF, #4745c9 20%, #1B10EF, #4745c9 20%, #1B10EF);
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
