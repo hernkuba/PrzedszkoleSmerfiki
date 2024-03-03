@@ -1,0 +1,21 @@
+.zalety {
+    display: flex;
+    justify-content: space-around;
+}
+
+.zalety__div {
+    padding: 30px;
+    color: black;
+    background-color: white;
+    flex-basis: 250px;
+    height: 188px;
+}
+
+.zalety__hr {
+    border-top:2px solid orange;
+}
+
+.zalety__span {
+    color: lightgrey;
+    line-height: 1.5%;
+}

@@ -3,17 +3,25 @@ header {
     width: 1200px;
     display: flex;
     padding: 0px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
-
-.header__a {
+.header__a--logo {
     text-decoration: none;
     color: white;
     padding: 30px;
     font-size: 120%;
 }
+.header__a {
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
 
-.header__a:hover {
+.header__span {
+    font-size: 100%;
+}
+
+.header__a:hover, .header__a--logo:hover {
     background-color: #0d84c0;
 }

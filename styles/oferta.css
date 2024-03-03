@@ -1,0 +1,49 @@
+.oferta {
+    display: flex;
+}
+
+.oferta__section {
+    flex-basis: 50%;
+    display: grid;
+    place-items: end;
+}
+
+.oferta__section--left {
+    flex-basis: 50%;
+    display: grid;
+    place-items: start;
+}
+
+.oferta__section--img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10%;
+}
+
+.button {
+    padding: 10px;
+}
+
+.button__left {
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(180, 100%, 25%);
+    color: white;
+}
+
+.button__left:active {
+    background-color: hsl(180, 100%, 15%);
+    
+}
+
+.button__right:active {
+    background-color: hsl(226, 42%, 16%);
+
+}
+
+.button__right {
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    background-color: hsl(226, 42%, 26%);
+}
