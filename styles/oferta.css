@@ -1,4 +1,5 @@
 .oferta {
+    margin-top: 100px;
     display: flex;
 }
 
@@ -17,7 +18,9 @@
 .oferta__section--img {
     max-width: 50%;
     height: auto;
-    border-radius: 10%;
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
 }
 
 .button {

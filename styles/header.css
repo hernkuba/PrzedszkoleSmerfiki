@@ -1,10 +1,16 @@
 header {
-    margin-top: 50px;
+    position: fixed;
+    border-radius: 30px;
     width: 1200px;
+    z-index: 2;
+    margin-top: 30px;
     display: flex;
+    background-color: #26335D;
     padding: 0px;
     justify-content: space-between;
     align-items: center;
+    
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .header__a--logo {
     text-decoration: none;

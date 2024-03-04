@@ -1,80 +1,125 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styles/html.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/oferta.css" />
+    <link rel="stylesheet" href="/styles/zalety.css" />
+    <link rel="stylesheet" href="/styles/nauczyciel.css" />
+    <!-- CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- CSS -->
-  <link rel="stylesheet" href="/styles/html.css" />
-  <link rel="stylesheet" href="/styles/header.css" />
-  <link rel="stylesheet" href="/styles/oferta.css" />
-  <link rel="stylesheet" href="/styles/zalety.css" />
-  <!-- CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-    integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- FONT -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-    rel="stylesheet" />
+    <title>Przedszkole Smerfiki</title>
+  </head>
 
-  <title>Przedszkole Smerfiki</title>
-</head>
+  <body>
+    <header>
+      <a class="header__a--logo" href="/">Przedszkole Smerfiki</a>
 
-<body>
-  <header>
-    <a class="header__a--logo" href="/">Przedszkole Smerfiki</a>
-
-    <span class="header__span">
-      <a class="header__a" href="">Oferta</a>
-      <a class="header__a" href="">Aktualności</a>
-      <a class="header__a" href="">Kontakt</a>
-      <a class="header__a" href="">Standardy ochrony małoletnich przed krzywdzeniem.</a>
-    </span>
-  </header>
-  <main>
-    <section class="oferta">
-      <section class="oferta__section oferta__section--left">
-        <h1>Już ponad 10 000 rodziców Smerfików nam zaufało!</h1>
-        <p>Naszym celem jest jak najlepsze wprowadzenie dzieci w szkolny świat!</p>
-        <span>
-          <button class="button button__left">Zobacz ofertę</button>
-          <button class="button button__right">Dowiedz się więcej</button>
-        </span>
-
+      <span class="header__span">
+        <a class="header__a" href="">Oferta</a>
+        <a class="header__a" href="">Aktualności</a>
+        <a class="header__a" href="">Kontakt</a>
+        <a class="header__a" href=""
+          >Standardy ochrony małoletnich przed krzywdzeniem.</a
+        >
+      </span>
+    </header>
+    <main>
+      <section class="oferta">
+        <section class="oferta__section oferta__section--left">
+          <h1>Zapraszamy do Przedszkola Smerfiki!</h1>
+          <p>
+            Już ponad 10 000 rodziców Smerfików nam zaufało! <br />
+            Naszym celem jest, jak najlepsze wprowadzenie dzieci w szkolny
+            świat!
+          </p>
+          <span>
+            <button class="button button__left">Zobacz ofertę</button>
+            <button class="button button__right">Dowiedz się więcej</button>
+          </span>
+        </section>
+        <section class="oferta__section">
+          <img
+            class="oferta__section--img"
+            src="/utils/happykid.jpg"
+            alt="Szczęśliwe dziecko umazane farbami"
+          />
+        </section>
       </section>
-      <section class="oferta__section">
-        <img class="oferta__section--img" src="/utils/happykid.jpg" alt="Szczęśliwe dziecko umazane farbami">
+      <section class="zalety">
+        <div class="zalety__div">
+          <img class="zalety__img" src="/utils/gry.svg" alt="" />
+          <h3>Dużo interaktywnych zabaw</h3>
+          <hr class="zalety__hr" />
+          <span class="zalety__span"
+            >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
+            suscipit repellendus consectetur commodi impedit quae ipsum dolor,
+            culpa totam tempore</span
+          >
+        </div>
+        <div class="zalety__div">
+          <img class="zalety__img" src="/utils/kadra.svg" alt="" />
+          <h3>Doświadczona kadra pedagogów</h3>
+          <hr class="zalety__hr" />
+          <span class="zalety__span"
+            >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
+            suscipit repellendus consectetur commodi impedit quae ipsum dolor,
+            culpa totam tempore</span
+          >
+        </div>
+        <div class="zalety__div">
+          <img class="zalety__img" src="/utils/przedszkokle.svg" alt="" />
+          <h3>Profesjonalne wyposażenie przedszkola</h3>
+          <hr class="zalety__hr" />
+          <span class="zalety__span"
+            >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
+            suscipit repellendus consectetur commodi impedit quae ipsum dolor,
+            culpa totam tempore</span
+          >
+        </div>
       </section>
-    </section>
-    <section class="zalety">
-      <div class="zalety__div">
-        <h3>Dużo interaktywnych zabaw</h3>
-        <hr class="zalety__hr">
-        <span class="zalety__span">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus suscipit
-          repellendus consectetur
-          commodi impedit quae ipsum dolor, culpa totam tempore</span>
-      </div>
-      <div class="zalety__div">
-        <h3>Doświadczona kadra pedagogów</h3>
-        <hr class="zalety__hr">
-        <span class="zalety__span">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus suscipit
-          repellendus consectetur
-          commodi impedit quae ipsum dolor, culpa totam tempore</span>
-      </div>
-      <div class="zalety__div">
-        <h3>Profesjonalne wyposażenie przedszkola</h3>
-        <hr class="zalety__hr">
-        <span class="zalety__span">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus suscipit
-          repellendus consectetur
-          commodi impedit quae ipsum dolor, culpa totam tempore</span>
-      </div>
-    </section>
-    <section></section>
-  </main>
-  <footer></footer>
-</body>
+      <section class="nauczyciel">
+        <section>
+          <img class="nauczyciel__img" src="/utils/nauczyciel.png" alt="" />
+        </section>
+        <section class="nauczyciel__secondsection">
+          <div class="nauczyciel__secondsection--div">
+            <hr class="nauczyciel__hr" />
+            <h2>Nasi profesjonalni nauczyciele!</h2>
 
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
+              nam vel quo similique saepe a unde commodi voluptatum voluptatibus
+              itaque.
+            </p>
+
+            <p>
+              <a class="nauczyciel__kadra" href="/">
+                Dowiedz się więcej o naszej kadrze
+                </a>
+            </p>
+          </div>
+        </section>
+      </section>
+      <div style="height: 500px"></div>
+    </main>
+    <footer></footer>
+  </body>
 </html>

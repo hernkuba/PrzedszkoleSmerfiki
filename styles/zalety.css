@@ -1,6 +1,6 @@
 .zalety {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .zalety__div {
@@ -8,14 +8,19 @@
     color: black;
     background-color: white;
     flex-basis: 250px;
-    height: 188px;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .zalety__hr {
-    border-top:2px solid orange;
+    border:2px solid #E74040;
 }
 
 .zalety__span {
     color: lightgrey;
     line-height: 1.5%;
+}
+.zalety__img {
+    width: 70px;
+    height: 70px;
 }

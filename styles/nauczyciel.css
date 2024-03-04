@@ -1,0 +1,40 @@
+.nauczyciel {
+    margin-top: 100px;
+    display: flex;
+}
+
+.nauczyciel__img {
+    border-radius: 5px;
+
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+}
+
+.arrownext {
+    color: #E74040;
+    width: 10px;
+    height: 10px;
+}
+
+.nauczyciel__hr {
+    margin-left: 0;
+    border: 5px solid #E74040;
+    width: 100px;
+}
+
+.nauczyciel__secondsection {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+}
+
+.nauczyciel__secondsection--div {
+    flex-basis: 50%;
+}
+
+.nauczyciel__kadra {
+    text-decoration: none;
+    color: #E74040;
+    
+}
