@@ -1,0 +1,43 @@
+.stopka {
+    width: 1200px;
+    margin: 100px 0 50px;
+    
+}
+
+.stopka__section {
+    display: flex;
+}
+
+.stopka__hr {
+    border: 1px solid #E74040;
+}
+
+.stopka__div {
+    flex-basis: 50%;
+}
+
+
+.stopka__img {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social {
+    margin-right: 50px;
+}
+
+.stopka__a {
+    color: hsl(0, 78%, 58%);
+    text-decoration: none;
+}
+
+.stopka__linki {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stopka__a:hover {
+    color: hsl(0, 78%, 78%);
+
+}
